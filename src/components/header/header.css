@@ -1,0 +1,43 @@
+/* .header-container {
+  background-color: black;
+  color: white;
+  height: 65px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100vw;
+} */
+
+/* Change fonts of the h1 in the container */
+.container h1 {
+  margin-right: 20px;
+  font-size: rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+  transform: translateY(-50%);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.header-menu-list,
+.header-cart-icon,
+.header-logo {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.header-logo {
+  justify-content: center;
+}
+
+.header-cart-icon {
+  justify-content: flex-end;
+}

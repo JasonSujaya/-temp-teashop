@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Abril Fatface", cursive;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-logo {
+    height: 25px;
+  }
+
+  .icon {
+    height: 20px;
+  }
+
+  .mr-1 {
+    margin-right: 10px;
+  }
+
+  .ml-1 {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .main-logo {
+    height: 30px;
+  }
+
+  .icon {
+    height: 25px;
+  }
+
+  .mr-1 {
+    margin-right: 15px;
+  }
+
+  .ml-1 {
+    margin-left: 15px;
+  }
+}
+
+.base-container {
+  display: grid;
+  height: 100vh;
+}
+
+.base-header-container {
+  background-color: rgba(0, 0, 0, 0.582);
+  color: white;
+  height: 70px;
+  width: 100vw;
+  position: fixed;
+}

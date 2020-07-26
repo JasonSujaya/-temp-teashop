@@ -1,14 +1,18 @@
 import React from "react";
-import "./base.css";
+import "./app.css";
 import Header from "./components/header";
-import FirstPage from "./components/firstpage";
+import Hero from "./components/hero";
 
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header></Header>
-        <FirstPage></FirstPage>
+        <div className="base-header-container">
+          <Header />
+        </div>
+        <div className="base-container">
+          <Hero />
+        </div>
       </React.Fragment>
     );
   }

@@ -1,0 +1,115 @@
+/* Containers */
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-information-container {
+  background: aquamarine;
+  min-height: 25vh;
+}
+
+.hero-image-container {
+  background: yellow;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  max-height: 100vh;
+}
+
+/* Gridding for the colors the left pane*/
+.hero-image-1st-lowerbox {
+  grid-column: 1/9;
+  grid-row: 22/-1;
+  background: purple;
+}
+
+.hero-image-2nd-lowerbox {
+  grid-column: 9/-1;
+  grid-row: 22/-1;
+  background: black;
+}
+
+.hero-image-box {
+  grid-column: 5/12;
+  grid-row: 7/-1;
+}
+
+/* Tea Image Relates */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+/* Responsive design for the image */
+@media screen and (max-width: 800px) and (max-height: 740px) {
+  /* Phone that's not so tall */
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image-box {
+    grid-column: 4/13;
+    grid-row: 7/-1;
+  }
+
+  .hero-information-container {
+    height: 25vh;
+  }
+
+  .hero-image-container {
+    height: 75vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-height: 741px) and (max-height: 900px) {
+  /* Phone that's tall like iphone X*/
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image-box {
+    grid-column: 3/14;
+    grid-row: 7/-1;
+  }
+
+  .hero-information-container {
+    height: 25vh;
+  }
+
+  .hero-image-container {
+    height: 75vh;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-height: 850px) {
+  /* Ipad */
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image-box {
+    grid-column: 6/12;
+    grid-row: 7/-1;
+  }
+
+  .hero-information-container {
+    height: 25vh;
+  }
+
+  .hero-image-container {
+    height: 75vh;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1150px) {
+  /* Destkop Responsive */
+
+  .hero-image-box {
+    grid-column: 3/14;
+    grid-row: 7/-1;
+  }
+}
