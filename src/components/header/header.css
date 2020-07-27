@@ -41,3 +41,13 @@
 .header-cart-icon {
   justify-content: flex-end;
 }
+
+.text-menu {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border: 1px solid white;
+  padding-left: 10px;
+  padding: 5px 10px;
+}

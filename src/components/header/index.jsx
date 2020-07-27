@@ -10,17 +10,24 @@ class Header extends React.Component {
     return (
       <div className="header">
         <div className="header-menu-list">
-          {/* <h1>ABOUT</h1>
-          <h1>GIFTS</h1>
-          <h1>LOCATION</h1> */}
-          <img className="icon" src={Hamburger}></img>
+          <div className="text-menu">
+            <img className="icon-small mr-1" src={Hamburger}></img>
+            categories
+          </div>
+          <div className="text-menu">about</div>
+          <div className="text-menu">contact</div>
+          <div className="text-menu">
+            <img className="icon-small" src={Search}></img>
+            <input type="text" />
+          </div>
+
+          {/* <img className="icon" src={Hamburger}></img> */}
         </div>
         <div className="header-logo">
           <img className="main-logo" src={MainLogo}></img>
         </div>
         <div className="header-cart-icon">
           <img className="icon ml-1" src={Cart}></img>
-          <img className="icon ml-1" src={Search}></img>
         </div>
       </div>
     );
