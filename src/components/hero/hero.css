@@ -7,17 +7,20 @@
 .hero-information-container {
   background: #facbd7;
   min-height: 25vh;
+  max-height: 1000px;
 }
-
-/* Related with product showcase */
-/* Gridding for the colors the left pane*/
 
 .hero-image-container {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(32, 1fr);
   max-height: 100vh;
+  max-height: 1000px;
 }
+
+/* Related with product showcase */
+/* Gridding for the colors the left pane*/
+
 .hero-image-1st-upperbox {
   grid-column: 1/-1;
   grid-row: 1/-1;
@@ -42,7 +45,7 @@
 
 .hero-image {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   min-width: 280px;
   object-fit: contain;
   border-radius: 20px;
@@ -85,6 +88,7 @@
 
   .hero-information-container {
     height: 25vh;
+    width: 100vw;
   }
 
   .hero-image-container {
@@ -92,12 +96,13 @@
   }
 
   .hero-image-box {
-    grid-column: 3/13;
+    grid-column: 6/12;
     grid-row: 7/-1;
   }
 
   .hero-image {
     min-width: 0px;
+    max-width: 230px;
   }
 }
 /* Responsive queries */
@@ -148,10 +153,17 @@
 }
 
 @media screen and (min-width: 801px) and (max-width: 1150px) {
-  /* Destkop Responsive */
+  /* Destkop Width Responsive */
 
   .hero-image-box {
-    grid-column: 3/14;
+    grid-column: 4/14;
     grid-row: 7/-1;
+  }
+}
+
+@media screen and (min-width: 801px) and (min-height: 851px) {
+  .hero-image {
+    max-width: 500px;
+    min-width: 300px;
   }
 }
