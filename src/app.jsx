@@ -13,6 +13,12 @@ class App extends React.Component {
         <div className="base-container">
           <Hero />
         </div>
+        <div>Hi</div>
+        <div>Hi</div>
+        <div>Hi</div>
+        <div>Hi</div>
+        <div>Hi</div>
+        <div>Hi</div>
       </React.Fragment>
     );
   }

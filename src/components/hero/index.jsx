@@ -1,9 +1,18 @@
 import React from "react";
 import "./hero.css";
-import ProductShowcase from "./product_showcase";
+import Showcase from "../utilities/product_showcase";
+import ProductShowcase from "./product_showcase2";
 
 class Hero extends React.Component {
-  state = { display: 1, date: new Date() };
+  state = {
+    display: 0,
+    date: new Date(),
+    color: [
+      ["#2D5664", "#E7A6A7", "#F87879"],
+      ["#E7A6A7", "#733753", "#343969"],
+      ["#F2AD9A", "#282743", "#049C9A"],
+    ],
+  };
 
   componentDidMount() {
     // Timer function for changing type
@@ -12,8 +21,8 @@ class Hero extends React.Component {
 
   tick() {
     console.log(this.state.display);
-    this.state.display >= 3
-      ? this.setState({ display: 1 })
+    this.state.display === 2
+      ? this.setState({ display: 0 })
       : this.setState({ display: this.state.display + 1 });
   }
 
@@ -26,14 +35,25 @@ class Hero extends React.Component {
     return (
       <div className="hero-container">
         <div className="hero-image-container">
-          <div className="hero-image-1st-upperbox">BOXX</div>
-          <div className="hero-image-1st-lowerbox">1st</div>
-          <div className="hero-image-2nd-lowerbox">2nd</div>
+          <div
+            className="hero-image-1st-upperbox"
+            style={{ background: this.state.color[0][this.state.display] }}
+          ></div>
+          <div
+            className="hero-image-1st-lowerbox"
+            style={{ background: this.state.color[1][this.state.display] }}
+          ></div>
+          <div
+            className="hero-image-2nd-lowerbox"
+            style={{ background: this.state.color[2][this.state.display] }}
+          ></div>
           <div className="hero-image-box">
-            <ProductShowcase display={this.state.display} />
+            {/* <Showcase display={this.state.display}></Showcase> */}
+            <ProductShowcase display={this.state.display}></ProductShowcase>
           </div>
         </div>
-        <div className="hero-information-container">BLYE</div>
+
+        <div className="hero-information-container"></div>
       </div>
     );
   }
