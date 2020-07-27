@@ -1,5 +1,4 @@
-/* Containers */
-
+/* Parent Ctonainer */
 .hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10,14 +9,15 @@
   min-height: 25vh;
 }
 
+/* Related with product showcase */
+/* Gridding for the colors the left pane*/
+
 .hero-image-container {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(32, 1fr);
   max-height: 100vh;
 }
-
-/* Gridding for the colors the left pane*/
 .hero-image-1st-upperbox {
   grid-column: 1/-1;
   grid-row: 1/-1;
@@ -38,7 +38,7 @@
   grid-row: 7/-1;
 }
 
-/* Tea Image Relates */
+/* Image Relates */
 
 .hero-image {
   width: 100%;
@@ -49,6 +49,33 @@
   overflow: "hidden";
 }
 
+/* Related with information Showcase */
+
+.hero-information-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 100vh;
+  width: 50vw;
+}
+
+.information-title {
+  background: blue;
+  grid-column: 2/10;
+  grid-row: 4/6;
+}
+
+.information-description {
+  background: yellow;
+  grid-column: 2/10;
+  grid-row: 6/8;
+}
+
+.information-cart {
+  background: green;
+  grid-column: 1/-1;
+  grid-row: 9/-1;
+}
 /* Responsive design for the image */
 @media screen and (max-width: 800px) and (max-height: 740px) {
   /* Phone that's not so tall */
@@ -73,6 +100,7 @@
     min-width: 0px;
   }
 }
+/* Responsive queries */
 @media only screen and (max-width: 800px) and (min-height: 741px) and (max-height: 900px) {
   /* Phone that's tall like iphone X*/
   .hero-container {
@@ -80,7 +108,8 @@
   }
 
   .hero-information-container {
-    height: 25vh;
+    height: 50vh;
+    width: 100vw;
   }
 
   .hero-image-container {
@@ -104,7 +133,8 @@
   }
 
   .hero-information-container {
-    height: 25vh;
+    height: 50vh;
+    width: 100vw;
   }
 
   .hero-image-container {

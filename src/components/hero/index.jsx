@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.css";
 import Showcase from "../utilities/product_showcase";
 import ProductShowcase from "./product_showcase2";
+import InformationShowcase from "./information_showcase";
 
 class Hero extends React.Component {
   state = {
@@ -53,7 +54,9 @@ class Hero extends React.Component {
           </div>
         </div>
 
-        <div className="hero-information-container"></div>
+        <div className="hero-information-container">
+          <InformationShowcase></InformationShowcase>
+        </div>
       </div>
     );
   }
