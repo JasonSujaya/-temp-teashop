@@ -8,6 +8,7 @@
   background: #facbd7;
   min-height: 25vh;
   max-height: 1000px;
+  min-height: 500px;
 }
 
 .hero-image-container {
@@ -16,6 +17,7 @@
   grid-template-rows: repeat(32, 1fr);
   max-height: 100vh;
   max-height: 1000px;
+  min-height: 500px;
 }
 
 /* Related with product showcase */
@@ -80,7 +82,7 @@
   grid-row: 9/-1;
 }
 /* Responsive design for the image */
-@media screen and (max-width: 800px) and (max-height: 740px) {
+@media screen and (max-width: 800px) and (max-height: 700px) {
   /* Phone that's not so tall */
   .hero-container {
     grid-template-columns: 1fr;
@@ -96,17 +98,16 @@
   }
 
   .hero-image-box {
-    grid-column: 6/12;
+    grid-column: 5/13;
     grid-row: 7/-1;
   }
 
   .hero-image {
     min-width: 0px;
-    max-width: 230px;
   }
 }
 /* Responsive queries */
-@media only screen and (max-width: 800px) and (min-height: 741px) and (max-height: 900px) {
+@media only screen and (max-width: 800px) and (min-height: 700px) and (max-height: 900px) {
   /* Phone that's tall like iphone X*/
   .hero-container {
     grid-template-columns: 1fr;
@@ -122,7 +123,7 @@
   }
 
   .hero-image-box {
-    grid-column: 3/14;
+    grid-column: 5/13;
     grid-row: 7/-1;
   }
 
