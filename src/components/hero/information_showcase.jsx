@@ -54,7 +54,17 @@ export default class InformationShowcase extends React.Component {
             </div>
           </div>
         </div>
-        <div className="information-cart">$39</div>
+        <div className="information-cart">
+          <div className="information-cart-container">
+            <h1 className="information-cart-1">$39.00</h1>
+            <div className="information-cart-2">
+              <div className="information-cart-3">
+                <p>1</p>
+              </div>
+              <button className="button information-cart-4">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

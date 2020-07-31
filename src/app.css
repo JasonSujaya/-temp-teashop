@@ -72,3 +72,10 @@ body {
   width: 100vw;
   position: fixed;
 }
+
+.button {
+  background-color: #343969;
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+}

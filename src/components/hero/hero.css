@@ -73,17 +73,11 @@
 .information-container-top {
   /* background: rgba(255, 255, 255, 0.432); */
   grid-column: 2/20;
-  grid-row: 8/17;
+  grid-row: 6/17;
 }
 
 .information-description {
   display: flex;
-}
-
-.information-cart {
-  background: green;
-  grid-column: 1/-1;
-  grid-row: 18/-1;
 }
 
 /* Related with the specific titles, etc */
@@ -99,7 +93,7 @@
 }
 
 .information-title-2 {
-  min-width: 300px;
+  min-width: 350px;
   max-width: 350px;
   min-height: 150px;
   border: 1px solid #343969;
@@ -187,9 +181,60 @@
   text-align: center;
   font-size: 10px;
 }
-/* .information-description-2 {
+
+/* Cart Related Images  */
+.information-cart {
+  border-top: 1px solid #343969;
+  grid-column: 1/-1;
+  grid-row: 19/-1;
   display: flex;
-} */
+  justify-content: center;
+  flex-direction: column;
+}
+
+.information-cart-container {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+}
+
+.information-cart-1 {
+  color: 343969;
+  font-size: 3rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-left: 10%;
+}
+
+.information-cart-2 {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.information-cart-2 > button {
+  font-size: 2rem;
+}
+
+.information-cart-3 {
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #343969;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-cart-3 > p {
+  font-size: 2rem;
+}
+.information-cart > div {
+  display: flex;
+}
+
 /* Responsive design for the image */
 @media screen and (max-width: 800px) and (max-height: 700px) {
   /* Phone that's not so tall */
