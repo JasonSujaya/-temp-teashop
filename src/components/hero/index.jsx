@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css";
-import ProductShowcase from "./product_showcase2";
+import ProductShowcase from "./product_showcase";
+import ProductBackground from "./product_background";
 import InformationShowcase from "./information_showcase";
 
 class Hero extends React.Component {
@@ -34,28 +35,8 @@ class Hero extends React.Component {
   render() {
     return (
       <div className="hero-container">
-        <div className="hero-image-container">
-          <div
-            className="hero-image-1st-upperbox"
-            style={{ background: this.state.color[0][this.state.display] }}
-          ></div>
-          <div
-            className="hero-image-1st-lowerbox"
-            style={{ background: this.state.color[1][this.state.display] }}
-          ></div>
-          <div
-            className="hero-image-2nd-lowerbox"
-            style={{ background: this.state.color[2][this.state.display] }}
-          ></div>
-          <div className="hero-image-box">
-            {/* <Showcase display={this.state.display}></Showcase> */}
-            <ProductShowcase display={this.state.display}></ProductShowcase>
-          </div>
-        </div>
-
-        <div className="hero-information-container">
-          <InformationShowcase />
-        </div>
+        <ProductBackground display={this.state.display} />
+        <InformationShowcase />
       </div>
     );
   }

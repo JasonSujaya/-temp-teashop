@@ -1,10 +1,9 @@
 import React from "react";
-import { render } from "@testing-library/react";
 
 export default class InformationShowcase extends React.Component {
   render() {
     return (
-      <div className="hero-information-container-2">
+      <div className="hero-information-container">
         <div className="information-container-top">
           <div className="information-title">
             <div className="information-box">

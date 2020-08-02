@@ -2,18 +2,27 @@
 .hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.hero-information-container {
-  background: #facbd7;
-  min-height: 25vh;
-  min-height: 500px;
+  grid-template-rows: 1fr 1fr;
+  height: 900px;
+  background-color: black;
 }
 
 .hero-image-container {
   display: grid;
+  height: 900px;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(32, 1fr);
+}
+
+.hero-information-container {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  text-align: center;
+  color: #343969;
+  background: #facbd7;
+
+  height: 900px;
 }
 
 /* Related with product showcase */
@@ -51,19 +60,6 @@
 }
 
 /* Related with information Showcase */
-
-.hero-information-container-2 {
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  grid-template-rows: repeat(20, 1fr);
-  min-height: 900px;
-  width: 50vw;
-  min-width: 4s00px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: #343969;
-}
 
 .information-container-top {
   /* background: rgba(255, 255, 255, 0.432); */
