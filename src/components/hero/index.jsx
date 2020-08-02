@@ -36,6 +36,9 @@ class Hero extends React.Component {
     return (
       <div className="hero-container">
         <ProductBackground display={this.state.display} />
+        {/* <div className="hero-image-container">
+          <ProductShowcase display={this.state.display}></ProductShowcase>
+        </div> */}
         <InformationShowcase />
       </div>
     );

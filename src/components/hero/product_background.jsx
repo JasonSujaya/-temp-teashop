@@ -12,21 +12,23 @@ class ProductBackground extends React.Component {
 
   render() {
     return (
-      <div className="hero-image-container">
-        <div
-          className="hero-image-1st-upperbox"
-          style={{ background: this.state.color[0][this.props.display] }}
-        ></div>
-        <div
-          className="hero-image-1st-lowerbox"
-          style={{ background: this.state.color[1][this.props.display] }}
-        ></div>
-        <div
-          className="hero-image-2nd-lowerbox"
-          style={{ background: this.state.color[2][this.props.display] }}
-        ></div>
-        <div className="hero-image-box">
+      <div className="relative">
+        <div className="hero-image-container">
           <ProductShowcase display={this.props.display}></ProductShowcase>
+        </div>
+        <div className="hero-background-container">
+          <div
+            className="hero-background-1st-upperbox"
+            style={{ background: this.state.color[0][this.props.display] }}
+          ></div>
+          <div
+            className="hero-background-1st-lowerbox"
+            style={{ background: this.state.color[1][this.props.display] }}
+          ></div>
+          <div
+            className="hero-background-2nd-lowerbox"
+            style={{ background: this.state.color[2][this.props.display] }}
+          ></div>
         </div>
       </div>
     );
