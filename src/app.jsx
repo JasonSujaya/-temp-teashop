@@ -2,6 +2,7 @@ import React from "react";
 import "./app.css";
 import Header from "./components/header";
 import Hero from "./components/hero";
+import Banner from "./components/banner/index";
 
 class App extends React.Component {
   render() {
@@ -11,14 +12,13 @@ class App extends React.Component {
           <Header />
         </div>
         <div className="base-container">
-          <Hero />
+          <div className="hero-grid">
+            <Hero />
+          </div>
+          <div className="hero-grid-2">
+            <Banner />
+          </div>
         </div>
-        <div>Hi</div>
-        <div>Hi</div>
-        <div>Hi</div>
-        <div>Hi</div>
-        <div>Hi</div>
-        <div>Hi</div>
       </React.Fragment>
     );
   }

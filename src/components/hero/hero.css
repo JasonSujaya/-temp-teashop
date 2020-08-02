@@ -7,7 +7,6 @@
 .hero-information-container {
   background: #facbd7;
   min-height: 25vh;
-  max-height: 900px;
   min-height: 500px;
 }
 
@@ -15,9 +14,6 @@
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(32, 1fr);
-  max-height: 100vh;
-  max-height: 900px;
-  min-height: 500px;
 }
 
 /* Related with product showcase */
@@ -60,8 +56,7 @@
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
-  height: 100vh;
-  max-height: 900px;
+  min-height: 900px;
   width: 50vw;
   min-width: 4s00px;
   margin-left: 50%;
@@ -110,7 +105,6 @@
   flex: 1;
   min-width: inherit;
   font-size: 6rem;
-  font-family: "Anton", sans-serif;
 }
 
 .information-description {
@@ -156,8 +150,7 @@
 }
 
 .information-description-2 > div > h1 {
-  font-size: 1.4rem;
-  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
 }
 
 .information-description-2 > div > p {
@@ -218,12 +211,12 @@
 }
 
 .information-cart-3 {
+  display: flex;
   text-align: center;
   width: 45px;
   height: 45px;
   border: 1px solid #343969;
   margin-right: 10px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
