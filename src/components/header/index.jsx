@@ -10,13 +10,13 @@ class Header extends React.Component {
     return (
       <div className="header">
         <div className="header-menu-list">
-          <div className="text-menu">
+          <div className="text-menu color1">
             <img className="icon-small mr-1" src={Hamburger}></img>
             categories
           </div>
-          <div className="text-menu">about</div>
-          <div className="text-menu">contact</div>
-          <div className="text-menu">
+          <div className="text-menu color1">about</div>
+          <div className="text-menu color1">contact</div>
+          <div className="text-menu color1">
             <img className="icon-small" src={Search}></img>
             <input type="text" />
           </div>
