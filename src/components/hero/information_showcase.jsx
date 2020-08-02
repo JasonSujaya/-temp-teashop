@@ -10,9 +10,8 @@ export default class InformationShowcase extends React.Component {
               <h3 className="information-title-1">Ooloong Tea</h3>
             </div>
             <div className="information-box ">
-              <div className="information-title-2">
-                <h1>LAPSANG </h1>
-                <h1> SOCHONG</h1>
+              <div className="information-title-2 flex flex-center wrap ">
+                <h1 className="font2">LAPSANG SOCHONG</h1>
               </div>
             </div>
           </div>
@@ -26,21 +25,21 @@ export default class InformationShowcase extends React.Component {
             </div>
             <div>
               <div className="information-description-2">
-                <div className="flex">
+                <div className="flex ">
                   <div className="information-description-tam">
-                    <h4>Taste</h4>
+                    <h4 className="font2">Taste</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
                   </div>
                   <div className="information-description-tam">
-                    <h4>Aroma</h4>
+                    <h4 className="font2">Aroma</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
                   </div>
                   <div className="information-description-tam">
-                    <h4>Mouthfeel</h4>
+                    <h4 className="font2">Mouthfeel</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
@@ -53,15 +52,15 @@ export default class InformationShowcase extends React.Component {
             </div>
           </div>
         </div>
-        <div className="information-cart">
-          <div className="information-cart-container">
+        <div className="information-cart-container flex-center">
+          <div className="information-cart-box flex-center">
             <h3 className="information-cart-1">$39.00</h3>
             <div className="information-cart-2">
               <div className="information-cart-3">
                 <h3>1</h3>
               </div>
               <button className="button information-cart-4">
-                <h3>ADD TO CART</h3>
+                <h4>ADD TO CART</h4>
               </button>
             </div>
           </div>
