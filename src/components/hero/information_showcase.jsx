@@ -17,38 +17,38 @@ export default class InformationShowcase extends React.Component {
             </div>
           </div>
           <div className="information-description">
-            <div className="information-box">
-              <p className="information-description-1">
+            <div className="information-description-1">
+              <p>
                 Tea is an aromatic beverage commonly prepared by pouring hot or
                 boiling water over cured or fresh leaves of the Camellia
                 sinensis, an evergreen shrub...
               </p>
             </div>
             <div>
-              <div className="information-box">
-                <div className="information-description-2">
-                  <div>
+              <div className="information-description-2">
+                <div className="flex">
+                  <div className="information-description-tam">
                     <h4>Taste</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
                   </div>
-                  <div>
+                  <div className="information-description-tam">
                     <h4>Aroma</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
                   </div>
-                  <div>
+                  <div className="information-description-tam">
                     <h4>Mouthfeel</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
                   </div>
                 </div>
-                <div className="information-description-3">
-                  <p>80 G</p>
-                </div>
+              </div>
+              <div className="information-description-3">
+                <p>80 G</p>
               </div>
             </div>
           </div>
