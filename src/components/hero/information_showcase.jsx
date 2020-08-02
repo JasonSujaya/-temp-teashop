@@ -7,7 +7,7 @@ export default class InformationShowcase extends React.Component {
         <div className="information-container-top">
           <div className="information-title">
             <div className="information-box">
-              <h2 className="information-title-1">Ooloong Tea</h2>
+              <h3 className="information-title-1">Ooloong Tea</h3>
             </div>
             <div className="information-box ">
               <div className="information-title-2">
@@ -28,19 +28,19 @@ export default class InformationShowcase extends React.Component {
               <div className="information-box">
                 <div className="information-description-2">
                   <div>
-                    <h1>Taste</h1>
+                    <h4>Taste</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
                   </div>
                   <div>
-                    <h1>Aroma</h1>
+                    <h4>Aroma</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
                   </div>
                   <div>
-                    <h1>Mouthfeel</h1>
+                    <h4>Mouthfeel</h4>
                     <p>Smoky</p>
                     <p>Smoky</p>
                     <p>Smoky</p>
@@ -55,12 +55,14 @@ export default class InformationShowcase extends React.Component {
         </div>
         <div className="information-cart">
           <div className="information-cart-container">
-            <h1 className="information-cart-1">$39.00</h1>
+            <h3 className="information-cart-1">$39.00</h3>
             <div className="information-cart-2">
               <div className="information-cart-3">
-                <p>1</p>
+                <h3>1</h3>
               </div>
-              <button className="button information-cart-4">ADD TO CART</button>
+              <button className="button information-cart-4">
+                <h3>ADD TO CART</h3>
+              </button>
             </div>
           </div>
         </div>
