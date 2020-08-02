@@ -5,7 +5,7 @@ const AboutBanner = (props) => {
   return (
     <div className="about-container">
       <div className="about-us-action-words">
-        <h1>ABOUT US</h1>
+        <h4>ABOUT US</h4>
         <p className="p2">Explore the amazing world of Tea. </p>
       </div>
       <div className="why-us-action">

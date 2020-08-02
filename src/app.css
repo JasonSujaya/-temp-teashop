@@ -3,8 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  color: #343969;
 }
 
+.color1 {
+  color: white;
+}
 .font1 {
   font-family: "Open Sans Condensed", sans-serif;
 }
