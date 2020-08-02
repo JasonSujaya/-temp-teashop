@@ -18,7 +18,7 @@
   grid-template-rows: repeat(20, 1fr);
   text-align: center;
   color: #343969;
-  background: #facbd7;
+  background: #fbdde5;
 }
 
 .hero-image-container {
@@ -81,7 +81,6 @@
   border-bottom: transparent;
   margin-left: 50%;
   transform: translateX(-50%);
-  font-family: "Six Caps", sans-serif;
 }
 
 .information-title-2 {
@@ -153,6 +152,8 @@
 /* Cart Related Images  */
 .information-cart-container {
   border-top: 1px solid #343969;
+  border-bottom: 1px solid #343969;
+
   grid-column: 1/-1;
   grid-row: 19/-1;
 }

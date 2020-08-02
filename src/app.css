@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 15px;
   color: #343969;
   font-family: "Raleway", sans-serif;
 }
@@ -18,6 +18,10 @@
   font-family: "Anton", sans-serif;
 }
 
+.font3 {
+  font-family: "Six Caps", sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -26,11 +30,11 @@ h4 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h3 {
