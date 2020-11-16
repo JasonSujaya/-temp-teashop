@@ -8,6 +8,7 @@
   /* background-image: url(../../media/background/bg-white.png); */
   object-fit: cover;
   padding: 0% 10%;
+  overflow: hidden;
 }
 .banner-pot-container {
 }
