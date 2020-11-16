@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/-temp-teashop/static/css/main.79bf5a43.chunk.css",
+    "main.js": "/-temp-teashop/static/js/main.ff14e3a0.chunk.js",
+    "main.js.map": "/-temp-teashop/static/js/main.ff14e3a0.chunk.js.map",
+    "runtime-main.js": "/-temp-teashop/static/js/runtime-main.145413c7.js",
+    "runtime-main.js.map": "/-temp-teashop/static/js/runtime-main.145413c7.js.map",
+    "static/js/2.2bf559ed.chunk.js": "/-temp-teashop/static/js/2.2bf559ed.chunk.js",
+    "static/js/2.2bf559ed.chunk.js.map": "/-temp-teashop/static/js/2.2bf559ed.chunk.js.map",
+    "index.html": "/-temp-teashop/index.html",
+    "precache-manifest.d5dbb2c130ffbf687e409976ae7f5bc0.js": "/-temp-teashop/precache-manifest.d5dbb2c130ffbf687e409976ae7f5bc0.js",
+    "service-worker.js": "/-temp-teashop/service-worker.js",
+    "static/css/main.79bf5a43.chunk.css.map": "/-temp-teashop/static/css/main.79bf5a43.chunk.css.map",
+    "static/js/2.2bf559ed.chunk.js.LICENSE.txt": "/-temp-teashop/static/js/2.2bf559ed.chunk.js.LICENSE.txt",
+    "static/media/default-monochrome-white.svg": "/-temp-teashop/static/media/default-monochrome-white.3371769d.svg",
+    "static/media/open-menu.svg": "/-temp-teashop/static/media/open-menu.fc3f4b8f.svg",
+    "static/media/pot1.png": "/-temp-teashop/static/media/pot1.31377210.png",
+    "static/media/search.svg": "/-temp-teashop/static/media/search.41a092f1.svg",
+    "static/media/shopping-cart.svg": "/-temp-teashop/static/media/shopping-cart.ab639bfc.svg",
+    "static/media/tea-1.png": "/-temp-teashop/static/media/tea-1.24535dfc.png",
+    "static/media/tea-2.png": "/-temp-teashop/static/media/tea-2.83501eed.png",
+    "static/media/tea-3.png": "/-temp-teashop/static/media/tea-3.dda70941.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.145413c7.js",
+    "static/js/2.2bf559ed.chunk.js",
+    "static/css/main.79bf5a43.chunk.css",
+    "static/js/main.ff14e3a0.chunk.js"
+  ]
+}
