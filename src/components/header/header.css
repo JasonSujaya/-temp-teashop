@@ -50,3 +50,10 @@
   padding-left: 10px;
   padding: 5px 10px;
 }
+
+
+@media screen and (max-width: 1100px)  {
+  .header-menu-list{
+    display: none;
+  }
+}
